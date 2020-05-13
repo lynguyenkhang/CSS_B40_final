@@ -1,0 +1,9 @@
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.menu {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
