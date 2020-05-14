@@ -12,7 +12,7 @@
 .submenu:hover .title-submenu {
 	color: #4747e2;
 }
-.submenu:hover .hidden_menu {
+.submenu:hover .hidden-menu {
 	display: flex;
 }
 
@@ -24,7 +24,7 @@
 	color: #4747e2;
 }
 
-.hidden_menu {
+.hidden-menu {
 	display: none;
 	flex-direction: row;
 	width: max-content;

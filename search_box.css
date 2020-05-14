@@ -1,0 +1,36 @@
+.seach-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.input-box {
+	width: 200px;
+	height: 40px;
+	padding: 0px;
+	border: 0.5px solid #2f80ed;
+	border-right: none;
+	border-radius: 4px 0 0 4px;
+	/* Chang the size text in placeholder */	
+	font-size: 12px;
+}
+
+
+.search-button {
+	width: 40px;
+	height: 41px;
+	border-radius: 0 4px 4px 0;
+	margin-top: 0px;
+	background: rgb(130,186,210);
+	background: linear-gradient(90deg, rgba(130,186,210,1) 0%, rgba(37,13,213,1) 100%);
+
+/*	locate "lookup" icon in center. */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
