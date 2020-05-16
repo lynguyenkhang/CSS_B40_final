@@ -2,7 +2,25 @@
 
 .submenu {
 	width: max-content;
+	height: 42px;
 	padding: 0px 8px 9px 0px;
+
+	font-size: 14px;
+	font-weight: 300;
+	font-family: sans-serif;
+
+}
+
+.submenu-8 {
+	padding-left: 9px;
+}
+
+.title-submenu-box {
+	width: 100%;
+	height: 100%;
+	/* to center the title in submenu box */
+	display: flex;
+	align-items: center;
 }
 
 .submenu:hover {
@@ -24,6 +42,7 @@
 	color: #4747e2;
 }
 
+
 .hidden-menu {
 	display: none;
 	flex-direction: row;
@@ -33,8 +52,9 @@
 	box-shadow: 0.5px 0.5px rgba(0,0,0,0.1);
 
 	position: absolute;
-
-
+	/* to make this component's top-border 
+	override the menu's border */
+	top: 97%;
 }
 
 .list{
@@ -46,7 +66,8 @@
 	padding-left: 20px;
 }
 
-.list-4 {
+
+.hidden-menu:last-child {
 	padding-right: 20px;
 }
 
@@ -57,11 +78,69 @@
 
 .list li:first-child {
 	font-weight: bold;
-	font-size: 14px;
-	font-family: sans-serif;
+}
 
-
+/*applying this to "BXH", "Chủ Đề", "Top 100" submenu
+*/
+.un-bold {
+	font-weight: 300 !important;
 }
 
 
+
+/* THIS IS CSS FOR RIGHT MENU */
+
+/*to override the border of hidden menu*/
+
+
+.center-menu {
+	border: none;
+	margin-right: 0px;
+}
+
+.submenu-icon {
+	padding-right: 20px;
+}
+
+.submenu-icon:hover .title-submenu {
+	color: #999;
+}
+
+
+.hidden-menu-icon {
+	width: max-content;
+	border-radius: 8px 8px;
+	padding: 0px !important;
+/*
+	Do this in order to locate
+	hidden menu in position that
+	has a same relative to submenu
+	in nhaccuatui.com website
+	*/
+	left: -15px;
+}
+
+.list-icon {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.list-icon li {
+	width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    border-bottom: 1px solid #DDD;
+}
+
+
+.list-icon li:last-child {
+	border-bottom: 0px;
+}
+
+.un-margin-bottom {
+	margin-bottom: 0px !important;
+}
 

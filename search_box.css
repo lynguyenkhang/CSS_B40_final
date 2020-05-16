@@ -1,3 +1,4 @@
+
 .seach-box {
 	display: flex;
 	flex-direction: row;
@@ -30,7 +31,8 @@
 }
 
 
-
-
-
-
+/* Add some class to fix this component in index.html */
+.menu-search-box {
+	border:none;
+	padding-top: 0px;
+}
