@@ -9,8 +9,13 @@
 	width: 300px;
 	background-image: url("./trend_artist_image/Hoang_Anh_Duy.jpg");
 	background-size: cover;
-}
 
+/*	border: 1px solid black;
+*/}
+
+.link-image {
+	height: 0px;
+}
 
 .trend-info {
 	text-align: center;
@@ -54,9 +59,6 @@
 
 .artist {
 margin-right: 8px;
-
-/*make singer's picture show according to this
-*/position: relative;
 }
 
 
@@ -88,76 +90,10 @@ margin-right: 8px;
 	background-image: url("./trend_artist_image/Hoang_Thuy_Linh.jpg");
 }
 
-/*To make change artists' picture with :hover*/
-
-.trend-artist-image-hover {
-	height: 300px;
-	width: 300px;
-
-	background-image: url("./trend_artist_image/Lam_Truong.jpg");
-	background-size: cover;
-/*	make this image's position in right place */
-	position: absolute;
-	bottom: 112px;
-}
-
-/*	make this image's position in right place */
-
-.trend-artist-image-hover-1{
-	left: -47px;
-	opacity: 0;
-}
-
-.trend-artist-image-hover-2{
-	left: -87px;
-	opacity: 0;
-}
-
-.trend-artist-image-hover-3{
-	left: -129px;
-	opacity: 0;
-}
-
-.trend-artist-image-hover-4{
-	left: -170px;
-	opacity: 0;
-}
-
-.trend-artist-image-hover-5{
-	left: -212px;
-	opacity: 0;
-}
 
 
 .artist-image:hover {
 	border-color: #0689BA;;
 }
-
-.artist-image-1:hover .trend-artist-image-hover {
-	opacity: 1;
-	background-image: url("./trend_artist_image/Hoang_Anh_Duy.jpg");
-}
-
-
-.artist-image-2:hover .trend-artist-image-hover {
-	opacity: 1;
-	background-image: url("./trend_artist_image/Lam_Truong.jpg");
-}
-
-.artist-image-3:hover .trend-artist-image-hover {
-	opacity: 1;
-	background-image: url("./trend_artist_image/Ha_Nhi.jpg");
-}
-
-.artist-image-4:hover .trend-artist-image-hover {
-	opacity: 1;
-	background-image: url("./trend_artist_image/Chu_Bin.jpg");
-}
-
-.artist-image-5:hover .trend-artist-image-hover {
-	opacity: 1;
-	background-image: url("./trend_artist_image/Hoang_Thuy_Linh.jpg");
-}
-
 
 

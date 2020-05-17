@@ -75,70 +75,57 @@
 
 	<div class="trend-artists">
 		<div class="trend-item">
-			<a class="link-image" href="#">
-				<div class="trend-artist-image"></div>
+			<a class="link-image" id="link_image" href="#">
+				<img class="trend-artist-image" src="./trend_artist_image/Hoang_Anh_Duy.jpg">
 			</a>
 
-		<div class="trend-info">
-			<p>Top Nghệ Sĩ Trending Trong Tuần</p>
-			<p class="name-artist">Lam Trường</p>
-					<div class="trend-gallery-pager">
-			<ul class="list-trend-artists">
-				<li class="artist artist-1">
-					<a href="#">
-						<div class="artist-image artist-image-1">
-					<!-- 	append this image as a child of "artist-image" div
-							in order to when artist-image-1:hover,
-							this picture will change 
-					 -->
-							<div class="trend-artist-image-hover  trend-artist-image-hover-1"></div>
-						</div>
-					</a>
-				</li>
+			<div class="trend-info">
+				<p>Top Nghệ Sĩ Trending Trong Tuần</p>
+				<p class="name-artist" id="name_artist">Hồ Hải Duy</p>
+				<div class="trend-gallery-pager">
+					<ul class="list-trend-artists">
+						<li class="artist artist-1">
+							<a href="#">
+								<div class="artist-image artist-image-1" onmouseover="changeSingerName('Hồ Hải Duy','Hoang_Anh_Duy.jpg' )">
+								</div>
+							</a>
+						</li>
 
-				<li class="artist artist-2">
-					<a href="#">
-						<div class="artist-image artist-image-2">
-							<div class="trend-artist-image-hover  trend-artist-image-hover-2"></div>
-						</div>
-					</a>
-				</li>
+						<li class="artist artist-2">
+							<a href="#">
+								<div class="artist-image artist-image-2" onmouseover="changeSingerName('Lam Trường', 'Lam_Truong.jpg')">
+								</div>
+							</a>
+						</li>
 
-				<li class="artist artist-3">
-					<a href="#">
-						<div class="artist-image artist-image-3">
-							<div class="trend-artist-image-hover  trend-artist-image-hover-3"></div>
-						</div>
-					</a>
-				</li>
+						<li class="artist artist-3">
+							<a href="#">
+								<div class="artist-image artist-image-3" onmouseover="changeSingerName('Hà Nhi','Ha_Nhi.jpg')">
+								</div>
+							</a>
+						</li>
 
-				<li class="artist artist-4">
-					<a href="#">
-						<div class="artist-image artist-image-4">
-							<div class="trend-artist-image-hover  trend-artist-image-hover-4"></div>
-						</div>
-					</a>
-				</li>
+						<li class="artist artist-4">
+							<a href="#">
+								<div class="artist-image artist-image-4" onmouseover="changeSingerName('Chu Bin','Chu_Bin.jpg')">
+								</div>
+							</a>
+						</li>
 
-				<li class="artist artist-5">
-					<a href="#">
-						<div class="artist-image artist-image-5">
-							<div class="trend-artist-image-hover  trend-artist-image-hover-5"></div>
-						</div>
-					</a>
-				</li>
-
-
-
-
-			</ul>
+						<li class="artist artist-5">
+							<a href="#">
+								<div class="artist-image artist-image-5" onmouseover="changeSingerName('Hoàng Thuỳ Linh','Hoang_Thuy_Linh.jpg')">
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		</div>
-
-
 	</div>
 
-
+	<script src="trend_artist_component.js">
+	</script>
 
 </body>
 </html>
