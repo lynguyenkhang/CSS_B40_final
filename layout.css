@@ -7,3 +7,7 @@
 	grid-column-start: 1;
 	grid-column-end: 3;
 }
+
+body {
+	font-family: sans-serif;
+}
