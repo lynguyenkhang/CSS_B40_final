@@ -1,0 +1,163 @@
+.trend-artists {
+	width: max-content;
+	margin-bottom: 20px;
+}
+
+
+.trend-artist-image{
+	height: 300px;
+	width: 300px;
+	background-image: url("./trend_artist_image/Hoang_Anh_Duy.jpg");
+	background-size: cover;
+}
+
+
+.trend-info {
+	text-align: center;
+	background-color: #F1F1F1;
+	height: 95px;
+
+	/*to locate trend-gallery-pager half inside this*/
+}
+
+.trend-gallery-pager {
+	margin-top: 19px;
+	width: 301px;
+}
+
+.trend-info p:first-child {
+    margin: 0px 0 10px 0;
+    padding-top: 16px;
+    color: rgba(0,0,0,.5);
+
+    font-size: 14px;
+
+
+}
+
+.name-artist {
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.list-trend-artists {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.artist {
+margin-right: 8px;
+
+/*make singer's picture show according to this
+*/position: relative;
+}
+
+
+.artist-image {
+	height: 32px;
+	width: 32px;
+	background-size: cover;
+	border: 0.7px solid white;
+	border-radius: 25px;
+}
+
+.artist-image-1 {
+	background-image: url("./trend_artist_image/Hoang_Anh_Duy.jpg");
+}
+
+.artist-image-2 {
+	background-image: url("./trend_artist_image/Lam_Truong.jpg");
+}
+
+.artist-image-3 {
+	background-image: url("./trend_artist_image/Ha_Nhi.jpg");
+}
+
+.artist-image-4 {
+	background-image: url("./trend_artist_image/Chu_Bin.jpg");
+}
+
+.artist-image-5 {
+	background-image: url("./trend_artist_image/Hoang_Thuy_Linh.jpg");
+}
+
+/*To make change artists' picture with :hover*/
+
+.trend-artist-image-hover {
+	height: 300px;
+	width: 300px;
+
+	background-image: url("./trend_artist_image/Lam_Truong.jpg");
+	background-size: cover;
+/*	make this image's position in right place */
+	position: absolute;
+	bottom: 112px;
+}
+
+/*	make this image's position in right place */
+
+.trend-artist-image-hover-1{
+	left: -47px;
+	opacity: 0;
+}
+
+.trend-artist-image-hover-2{
+	left: -87px;
+	opacity: 0;
+}
+
+.trend-artist-image-hover-3{
+	left: -129px;
+	opacity: 0;
+}
+
+.trend-artist-image-hover-4{
+	left: -170px;
+	opacity: 0;
+}
+
+.trend-artist-image-hover-5{
+	left: -212px;
+	opacity: 0;
+}
+
+
+.artist-image:hover {
+	border-color: #0689BA;;
+}
+
+.artist-image-1:hover .trend-artist-image-hover {
+	opacity: 1;
+	background-image: url("./trend_artist_image/Hoang_Anh_Duy.jpg");
+}
+
+
+.artist-image-2:hover .trend-artist-image-hover {
+	opacity: 1;
+	background-image: url("./trend_artist_image/Lam_Truong.jpg");
+}
+
+.artist-image-3:hover .trend-artist-image-hover {
+	opacity: 1;
+	background-image: url("./trend_artist_image/Ha_Nhi.jpg");
+}
+
+.artist-image-4:hover .trend-artist-image-hover {
+	opacity: 1;
+	background-image: url("./trend_artist_image/Chu_Bin.jpg");
+}
+
+.artist-image-5:hover .trend-artist-image-hover {
+	opacity: 1;
+	background-image: url("./trend_artist_image/Hoang_Thuy_Linh.jpg");
+}
+
+
+
