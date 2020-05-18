@@ -1,12 +1,21 @@
 .menu-bar {
 	height: max-content;
+	width: max-content;
 	padding: 6px 0px 7px 0px;
 	border-bottom: 1px solid #DDD;
+/*	to center menu-bar */
+	margin: auto;
 
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: center;
+/*	flex-wrap: wrap;
+*/	
+/*	justify-content: center;*/
+
+
+	background-color: #FFF;
+
+
 }
 
 .menu {
@@ -14,9 +23,18 @@
 	width: max-content;
 	border: none;
 	padding: 0px;
-	margin-right: 35px;
 	display: flex;
 }
+
+.left-menu {
+	margin-right: 45px;
+}
+
+.center-menu {
+	border: none;
+	margin-right: 20px;
+}
+
 
 .nct-image {
 	padding: 6px 8px 6px 0px;

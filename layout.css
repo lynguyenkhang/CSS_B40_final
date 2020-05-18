@@ -3,9 +3,18 @@
 	grid-template-columns: 2fr 1fr;
 }
 
-.menu-bar {
+.header {
 	grid-column-start: 1;
 	grid-column-end: 3;
+
+/*	position: fixed;
+	top:0px;
+	background-color: #FFF;
+	z-index: 99999;*/
+}
+
+.grid-collum-gap {
+	padding-left: 25px;
 }
 
 body {

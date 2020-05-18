@@ -1,11 +1,17 @@
+/*.nct-image-link {
+	margin-right: 5px;
+}*/
 
+.nct-image-link {
+	padding-right: 5px;
+}
 
 .submenu {
 	width: max-content;
 	height: 42px;
-	padding: 0px 8px 9px 0px;
+	padding: 0px 16px 8px 0px;
 
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 300;
 	font-family: sans-serif;
 
@@ -93,13 +99,13 @@
 /*to override the border of hidden menu*/
 
 
-.center-menu {
-	border: none;
-	margin-right: 0px;
-}
 
 .submenu-icon {
-	padding-right: 20px;
+	padding-right: 22px;
+}
+
+.icon-3{
+	padding-right: 0px;
 }
 
 .submenu-icon:hover .title-submenu {
