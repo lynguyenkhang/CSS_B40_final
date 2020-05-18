@@ -1,0 +1,45 @@
+
+
+.discovery_playlist_link {
+	text-decoration: none;
+}
+
+.bg_discovery_playlist {
+	height: 240px;
+	width: 300px;
+
+	background-size: cover;
+	background-image: url('./bg_discovery_playlist.png');
+
+	text-align: center;
+}
+
+.content_discovery_playlist h2 {
+	font-weight: bold;
+	text-align: 16px;
+	font-size: 16px;
+	color: rgba(255,255,255,0.88);
+	padding-top: 45px;
+}
+
+.text-detail {
+	font-size: 14px;
+	color: rgba(255,255,255,0.5);
+	margin: 16px 17px 0px 17px;
+}
+
+.btn-playlist {
+	margin: 24px 70px 0px 70px;
+	background-color: #EEE;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #2DAAED;
+	border-radius: 24px;
+}
+
+.icon-in-btn-playlist {
+	margin-right: 10px;
+}
+
