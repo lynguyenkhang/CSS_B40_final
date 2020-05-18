@@ -1,0 +1,33 @@
+
+.hot-topic {
+	width: max-content;
+}
+
+.title-hot-topic-box{
+	padding: 9px 0px 13px 0px;
+	position: relative;
+}
+
+.title-hot-topic-link{
+	text-decoration: none;
+	color: #2daaed;
+	font-size: 21px;
+}
+
+.angle-right {
+	color: #2daaed;
+	position: absolute;
+	top: 12.3px;
+	left: 138px;
+}
+
+.hot-top-list {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.hot-top-list li {
+	list-style: none;
+	margin-bottom: 15px;
+}
