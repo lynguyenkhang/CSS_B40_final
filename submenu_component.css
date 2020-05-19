@@ -34,7 +34,7 @@
 }
 
 .submenu:hover .title-submenu {
-	color: #4747e2;
+	color: #0689BA;
 }
 .submenu:hover .hidden-menu {
 	display: flex;
@@ -45,7 +45,7 @@
 	text-decoration: none;
 }
 .submenu a:hover {
-	color: #4747e2;
+	color: #0689BA;
 }
 
 

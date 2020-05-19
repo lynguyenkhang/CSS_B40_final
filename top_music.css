@@ -1,0 +1,173 @@
+
+
+.top-music-box {
+	width: max-content;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.title-top-music{
+	padding: 9px 0px 13px 0px;
+	position: relative;
+}
+
+.top-music-link{
+	text-decoration: none;
+	color: #2daaed;
+	font-size: 26px;
+}
+
+.play-icon {
+	color: #888;
+	position: absolute;
+	top: 7px;
+	left: 171px;
+}
+.btn-tab-select {
+	height: 32px;
+	width: 300px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.btn-tab-select a {
+	text-decoration: none;
+	background-color: #e5e5e5;
+
+	color: #333;
+	text-align: center;
+	height: 100%;
+	width: 100px;
+
+	transition: all 0.2s linear;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.top-10-music-VN {
+	border-radius: 20px 0px 0px 20px;
+}
+
+
+.top-10-music-KPOP {
+	border-radius: 0px 20px 20px 0px;
+}
+
+
+.btn-tab-select a:hover {
+	color: #FFF;
+	background-color: #e74c3c;
+}
+
+.active {
+	color: #FFF !important;
+	background-color: #e74c3c !important;
+}
+
+
+/*.top-music-list {
+	font-weight: 300;
+}*/
+
+.top-music-list ul {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+.top-music-list li {
+	list-style: none;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+	display: flex;
+}
+
+.top-music-list a {
+	text-decoration: none;
+}
+
+.first-song-image {
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	display: flex;
+	align-items: flex-end;
+
+	margin-right: 10px;
+}
+
+.first-song-image-VN {
+	background-image: url('./top_music/Chan_Ai.jpg');
+}
+
+.first-song-image-USUK {
+	background-image: url('./top_music/Yummy.jpg');
+}
+
+.first-song-image-KPOP {
+	background-image: url('./top_music/Beginning.jpg');
+}
+
+.first-song-number {
+	background-color: #e74c3c;
+	height: 32px;
+	width: 32px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #EEE;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+
+.song-info p{
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.name-song-top-music{
+	color: #222;
+	font-size: 14.5px;
+}
+.name-song-top-music:hover {
+	color: #0689BA;
+}
+
+
+.name-singer-top-music {
+	font-size: 13px;
+	color: rgba(0,0,0,0.3);
+}
+
+.name-singer-top-music:hover {
+	color: #0689BA;
+}
+
+.number {
+	height: 30px;
+	width: 30px;
+	padding-top: 5px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+.special-2 {
+	color: #1abc9c;
+}
+
+.special-3 {
+	color: #f39c12;
+}
+
+
+

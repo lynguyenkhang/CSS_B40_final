@@ -8,8 +8,11 @@
 	height: 240px;
 	width: 300px;
 
+	margin-bottom: 20px;
+
 	background-size: cover;
 	background-image: url('./bg_discovery_playlist.png');
+	border-radius: 5px;
 
 	text-align: center;
 }

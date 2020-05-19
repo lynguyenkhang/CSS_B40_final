@@ -1,6 +1,7 @@
 
 .hot-topic {
 	width: max-content;
+	margin-bottom: 20px;
 }
 
 .title-hot-topic-box{
@@ -11,14 +12,14 @@
 .title-hot-topic-link{
 	text-decoration: none;
 	color: #2daaed;
-	font-size: 21px;
+	font-size: 23px;
 }
 
 .angle-right {
 	color: #2daaed;
 	position: absolute;
-	top: 12.3px;
-	left: 138px;
+	top: 14px;
+	left: 152px;
 }
 
 .hot-top-list {
