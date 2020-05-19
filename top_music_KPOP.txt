@@ -95,8 +95,8 @@
 							<a class="name-song-top-music" href="#no">Yours</a>
 						</p>
 						<span><a class="name-singer-top-music" href="#no">Raiden,</a></span>
-						<span><a class="name-singer-top-music" href="#no">Chan Yeol</a></span>
-						<span><a class="name-singer-top-music" href="#no">Lee Hi</a></span>
+						<span><a class="name-singer-top-music" href="#no">Chan Yeol,</a></span>
+						<span><a class="name-singer-top-music" href="#no">Lee Hi,</a></span>
 						<span><a class="name-singer-top-music" href="#no">Changmo</a></span>
 
 					</div>

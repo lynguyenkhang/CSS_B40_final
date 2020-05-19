@@ -137,9 +137,6 @@
 		</div>
 	</div>
 
-	<script src="trend_artist_component.js">
-	</script>
-
 	<a href="#no" class="discovery_playlist_link">
 		<div class="bg_discovery_playlist">
 			<div class="content_discovery_playlist">
@@ -195,7 +192,9 @@
 	<div class="top-music-box">
 		<div class="title-top-music">
 			<a class="top-music-link" href="#no">BXH BÀI HÁT</a>
-			<i class="far fa-play-circle fa-2x play-icon"></i>
+			<a href="#no">
+				<i class="far fa-play-circle fa-2x play-icon"></i>
+			</a>
 		</div>
 		<div class="btn-tab-select" id="btn_tab_select">
 			<div id="VN-top">
@@ -324,55 +323,56 @@
 
 
 
+	<script src="trend_artist_component.js">
+	</script>
 
-	
 <!-- 		Active "top_music" component and change top_Music_List.innerHTML -->		
-		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-		<script type="text/javascript">
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script type="text/javascript">
 
-			var btnTabSelect = document.getElementById('btn_tab_select');
-			var topMusicList = document.getElementById('top_music_list');
-			var notActive = '<div id="VN-top"><a class="top-10-music-VN" href="javascript:VNActived();">Việt Nam</a></div><div id="USUK-top"><a class="top-10-music-USUK" href="javascript:USUKActived();">Âu Mỹ</a></div><div id="KPOP-top"><a class="top-10-music-KPOP" href="javascript:KPOPActived();">Hàn Quốc</a></div>';
-			var activeVN = '<a class="top-10-music-VN active" href="javascript:VNActived();">Việt Nam</a>';
-			var activeUSUK = '<a class="top-10-music-USUK active" href="javascript:USUKActived();">Âu Mỹ</a>';
-			var activeKPOP = '<a class="top-10-music-KPOP active" href="javascript:KPOPActived();">Hàn Quốc</a>';
-			var urlUSUK = "http://localhost:8080/top_music_USUK.txt";
-			var urlVN = "http://localhost:8080/top_music_VN.txt";
-			var urlKPOP = "http://localhost:8080/top_music_KPOP.txt";
-
-
-
-			function clearActive() {
-				btnTabSelect.innerHTML = notActive;
-			}
-
-
-			function changeContent(url) {
-				axios.get(url).then(function(res) {
-					topMusicList.innerHTML = res.data;
-				});
-			}
+		var btnTabSelect = document.getElementById('btn_tab_select');
+		var topMusicList = document.getElementById('top_music_list');
+		var notActive = '<div id="VN-top"><a class="top-10-music-VN" href="javascript:VNActived();">Việt Nam</a></div><div id="USUK-top"><a class="top-10-music-USUK" href="javascript:USUKActived();">Âu Mỹ</a></div><div id="KPOP-top"><a class="top-10-music-KPOP" href="javascript:KPOPActived();">Hàn Quốc</a></div>';
+		var activeVN = '<a class="top-10-music-VN active" href="javascript:VNActived();">Việt Nam</a>';
+		var activeUSUK = '<a class="top-10-music-USUK active" href="javascript:USUKActived();">Âu Mỹ</a>';
+		var activeKPOP = '<a class="top-10-music-KPOP active" href="javascript:KPOPActived();">Hàn Quốc</a>';
+		var urlUSUK = "http://localhost:8080/top_music_USUK.txt";
+		var urlVN = "http://localhost:8080/top_music_VN.txt";
+		var urlKPOP = "http://localhost:8080/top_music_KPOP.txt";
 
 
 
-			function VNActived() {
-				clearActive();
-				document.getElementById('VN-top').innerHTML = activeVN;
-				changeContent(urlVN);
-			}
+		function clearActive() {
+			btnTabSelect.innerHTML = notActive;
+		}
 
-			function USUKActived() {
-				clearActive();
-				document.getElementById('USUK-top').innerHTML = activeUSUK;
-				changeContent(urlUSUK);
-			}
 
-			function KPOPActived() {
-				clearActive();
-				document.getElementById('KPOP-top').innerHTML = activeKPOP;
-				changeContent(urlKPOP);
-			}
-		</script>
+		function changeContent(url) {
+			axios.get(url).then(function(res) {
+				topMusicList.innerHTML = res.data;
+			});
+		}
+
+
+
+		function VNActived() {
+			clearActive();
+			document.getElementById('VN-top').innerHTML = activeVN;
+			changeContent(urlVN);
+		}
+
+		function USUKActived() {
+			clearActive();
+			document.getElementById('USUK-top').innerHTML = activeUSUK;
+			changeContent(urlUSUK);
+		}
+
+		function KPOPActived() {
+			clearActive();
+			document.getElementById('KPOP-top').innerHTML = activeKPOP;
+			changeContent(urlKPOP);
+		}
+	</script>
 
 </body>
 </html>
