@@ -1,0 +1,120 @@
+			<ul>
+				<li class="mv mv-1">
+					<a href="#no" class="link-mv link-mv-1">
+						<div class="image-mv image-mv-1-KPOP"></div>
+						<div class="overlay overlay-mv-1"></div>
+
+						<div class="song-info-mv-1"> 
+							<p>
+								<a class="name-song-top-mv name-song-top-mv-1" href="#no">woo!ah!</a>
+							</p>
+						</div>
+
+						<div class="overlay-mv-hover overlay-mv-hover-1">
+							<i class="far fa-play-circle fa-3x play-icon-mv-1"></i>
+						</div>
+
+						<!-- Tách tên singer ra khỏi phần tên mv ở trên
+						Vì làm v name-singer-top-music có thể hover đc
+						khi mv-1 đang hover -->
+						<div class="song-info-mv-1 song-info-mv-1-singer">
+							<span><a class="name-singer-top-music name-singer-top-mv-1" href="#no">woo!ah!</a></span>
+						</div>
+
+						<a href="#no"><div class="number-mv number-mv-1">1</div></a>
+					</a>
+				</li>
+				<li class="list-mv list-mv-2">
+					<div class="mv mv-2">
+						<a href="#no">
+							<div class="image-mv image-mv-2-KPOP"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-2">
+								<span class="number-mv number-mv-2">2</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Beginning (Itaewon Class Ost)</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">Gaho</a></span>
+					</div>
+				</li>
+
+				<li class="list-mv list-mv-3">
+					<div class="mv mv-3">
+						<a href="#no">
+							<div class="image-mv image-mv-3-KPOP"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-3">
+								<span class="number-mv number-mv-3">3</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Oh My God</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">(G)I-DLE</a></span>
+					</div>
+				</li>
+
+
+				<li class="list-mv list-mv-4">
+					<div class="mv mv-4">
+						<a href="#no">
+							<div class="image-mv image-mv-4-KPOP"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-4">
+								<span class="number-mv number-mv-4">4</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Cigar</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">HA:TFELT (Ye Eun)</a></span>
+					</div>
+				</li>
+
+				<li class="list-mv list-mv-5">
+					<div class="mv mv-5">
+						<a href="#no">
+							<div class="image-mv image-mv-5-KPOP"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-5">
+								<span class="number-mv number-mv-5">5</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Dun Dun</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">Everglow</a></span>
+					</div>
+				</li>
+
+			</ul>

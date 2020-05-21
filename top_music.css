@@ -1,17 +1,17 @@
 
 
-.top-music-box {
+.top-box {
 	width: max-content;
 	font-weight: 300;
 	margin-bottom: 10px;
 }
 
-.title-top-music{
+.title-top-box{
 	padding: 9px 0px 13px 0px;
 	position: relative;
 }
 
-.top-music-link{
+.top-box-link{
 	text-decoration: none;
 	color: #2daaed;
 	font-size: 26px;
@@ -36,7 +36,7 @@
 
 	color: #333;
 	text-align: center;
-	height: 100%;
+	height: 32px;
 	width: 100px;
 
 	transition: all 0.2s linear;
@@ -112,19 +112,7 @@
 	background-image: url('./top_music/Beginning.jpg');
 }
 
-.first-song-number {
-	background-color: #e74c3c;
-	height: 32px;
-	width: 32px;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	color: #EEE;
-	font-size: 22px;
-	font-weight: 300;
-}
 
 
 .song-info p{
@@ -134,7 +122,9 @@
 
 .name-song-top-music{
 	color: #222;
-	font-size: 14.5px;
+	font-size: 14px;
+	transition: all 0.3s;
+
 }
 .name-song-top-music:hover {
 	color: #0689BA;
@@ -144,6 +134,7 @@
 .name-singer-top-music {
 	font-size: 13px;
 	color: rgba(0,0,0,0.3);
+	transition: all 0.3s;
 }
 
 .name-singer-top-music:hover {
@@ -151,21 +142,30 @@
 }
 
 .number {
-	height: 30px;
-	width: 30px;
+	height: 32px;
+	width: 32px;
 	padding-top: 5px;
 	margin-right: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 20px;
+	font-weight: 300;
+
 }
 
-.special-2 {
+.number-1 {
+	background-color: #e74c3c;
+	padding-top: 0px;
+	color: #EEE;
+}
+
+
+.number-2 {
 	color: #1abc9c;
 }
 
-.special-3 {
+.number-3 {
 	color: #f39c12;
 }
 

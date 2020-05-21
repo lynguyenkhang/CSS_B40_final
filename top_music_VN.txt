@@ -2,7 +2,7 @@
 				<li>
 					<a  href="#">
 						<div class="first-song-image first-song-image-VN ">
-							<div class="first-song-number">1</div>
+							<div class="number number-1">1</div>
 						</div>
 					</a>
 
@@ -17,7 +17,7 @@
 				</li>
 
 				<li>
-					<div class="number special-2">2</div>
+					<div class="number number-2">2</div>
 					<div class="song-info">
 						<p>
 							<a class="name-song-top-music" href="#">Tình Sầu Thiên Thu Muôn Lối</a>
@@ -28,7 +28,7 @@
 				</li>
 
 				<li>
-					<div class="number special-3">3</div>
+					<div class="number number-3">3</div>
 					<div class="song-info">
 						<p>
 							<a class="name-song-top-music" href="#">Sợ Rằng Em Biết Anh Còn Yêu Em</a>

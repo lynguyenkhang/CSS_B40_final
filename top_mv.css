@@ -1,0 +1,288 @@
+
+.top-box-mv {
+	margin-bottom: 40px;
+}
+
+.play-icon-mv {
+	color: #888;
+	position: absolute;
+	top: 7px;
+	left: 105px;
+}
+
+
+
+.top-mv-list ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.list-mv {
+	display: flex;
+}
+
+.top-mv-list li {
+	list-style: none;
+	width: 300px;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.top-mv-list a {
+	text-decoration: none;
+}
+
+
+
+.mv {
+	position: relative;
+	width: max-content;
+	margin-right: 20px;
+}
+
+
+.mv-1 {
+	margin-right: 0px;
+}
+
+
+
+
+
+.number-mv {
+	font-size: 20px;
+	font-weight: 300;
+	padding-left: 10px;
+	color: #FFF;
+}
+
+
+.number-mv-1 {
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	top: 124px;
+	background-color: #e74c3c;
+	padding-top: 0px;
+	padding-left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.number-mv-2 {
+	color: #1abc9c;
+}
+
+.number-mv-3 {
+	color: #f39c12;
+}
+
+
+
+
+
+.overlay {
+	width: 110px;
+	height: 30px;
+	background: linear-gradient(180deg, rgba(0,6,13,0) 0%, rgba(0,3,11,0.5) 47%, rgba(1,0,9,0.7) 80%);
+	position: absolute;
+	top: 32px;
+
+}
+
+
+.overlay-mv-1 {
+	width: 100%;
+	height: 46px;
+	top: 124px;
+}
+
+
+
+.song-info-mv-1 {
+	position: absolute;
+	top: 107px;
+	left: 56px;
+
+	width: 304px;
+}
+
+
+.song-info-mv-1-singer{
+	top: 140px;
+}
+
+
+
+
+/*.song-info-mv-1 p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}*/
+
+
+.name-song-top-mv{
+	color: #222;
+	font-size: 14px;
+	transition: all 0.3s;
+}
+.name-song-top-mv:hover {
+	color: #0689BA;
+}
+
+.name-song-top-mv-1{
+	color: #FFF;
+}
+
+
+.name-singer-top-mv {
+	font-size: 13px;
+	color: rgba(0,0,0,0.3);
+	transition: all 0.3s;
+
+}
+
+.name-singer-top-mv:hover {
+	color: #0689BA;
+}
+
+.name-singer-top-mv-1 {
+	color: #E5E5E5;
+}
+
+
+
+.overlay-mv-hover {
+	width: 110px;
+	height: 62px;
+	background-color: rgba(0,0,0,0.25);
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+
+	transition: all 0.5s;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlay-mv-hover-1 {
+	width: 300px;
+	height: 170px;
+}
+
+
+
+.play-icon-mv-1{
+	color: rgba(255,255,255,0.8);
+	transform: scale(0.5);
+	transition: all 0.5s;
+}
+
+
+.song-info-mv {
+	padding-top: 2px;
+	flex-grow: 1;
+}
+
+.mv-1:hover .name-song-top-mv-1{
+	color: #0689BA;
+}
+
+.mv-1:hover .overlay-mv-hover{
+	opacity: 1;
+}
+.mv-1:hover .play-icon-mv-1 {
+	transform: scale(0.8);
+}
+
+.mv:hover .overlay-mv-hover{
+	opacity: 1;
+}
+.mv:hover .play-icon-mv-1 {
+	transform: scale(0.8);
+}
+
+.image-mv {
+	width: 110px;
+	height: 62px;
+	background-size: cover;
+}
+
+.image-mv-1-VN {
+	width: 100%;
+	height: 170px;
+	background-image: url('./top_mv/Nhung_Ngay_That_Khac.jpg');
+}
+
+.image-mv-2-VN {
+	background-image: url('./top_mv/Anh_Thanh_Nien.jpg');
+}
+
+.image-mv-3-VN {
+	background-image: url('./top_mv/Viet_Nam_Tu_Te.jpg');
+}
+
+.image-mv-4-VN {
+	background-image: url('./top_mv/Ghen_Co_Vy.jpg');
+}
+
+.image-mv-5-VN {
+	background-image: url('./top_mv/Vi_Em_Qua_Co_Don.jpg');
+}
+
+
+.image-mv-1-USUK {
+	width: 100%;
+	height: 170px;
+	background-image: url('./top_mv/Forever.jpg');
+}
+
+.image-mv-2-USUK {
+	background-image: url('./top_mv/Llamame.jpg');
+
+}
+.image-mv-3-USUK {
+	background-image: url('./top_mv/Say_So.jpg');
+}
+
+.image-mv-4-USUK {
+	background-image: url('./top_mv/Let_Fight_Covid.jpg');
+}
+
+.image-mv-5-USUK {
+	background-image: url('./top_mv/Parece_Falso.jpg');
+}
+
+.image-mv-1-KPOP {
+	width: 100%;
+	height: 170px;
+	background-image: url('./top_mv/woo!ah!.jpg');
+}
+
+.image-mv-2-KPOP {
+	background-image: url('./top_mv/Beginning.jpg');
+
+}
+.image-mv-3-KPOP {
+	background-image: url('./top_mv/Oh_My_God.jpg');
+}
+
+.image-mv-4-KPOP {
+	background-image: url('./top_mv/Cigar.jpg');
+}
+
+.image-mv-5-KPOP {
+	background-image: url('./top_mv/Dun_Dun.jpg');
+}
+
+
+
+
+
+
+
+

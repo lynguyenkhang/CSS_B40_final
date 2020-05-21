@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="./discovery_playlist.css">
 	<link rel="stylesheet" type="text/css" href="./hot_topic.css">
 	<link rel="stylesheet" type="text/css" href="./top_music.css">
+	<link rel="stylesheet" type="text/css" href="./top_mv.css">
 
 	<script src="https://kit.fontawesome.com/d04809f9cf.js" crossorigin="anonymous"></script>
 
@@ -189,23 +190,23 @@
 		</ul>
 	</div>
 
-	<div class="top-music-box">
-		<div class="title-top-music">
-			<a class="top-music-link" href="#no">BXH BÀI HÁT</a>
+	<div class="top-box top-box-music">
+		<div class="title-top-box">
+			<a class="top-box-link" href="#no">BXH BÀI HÁT</a>
 			<a href="#no">
 				<i class="far fa-play-circle fa-2x play-icon"></i>
 			</a>
 		</div>
 		<div class="btn-tab-select" id="btn_tab_select">
 			<div id="VN-top">
-				<a class="top-10-music-VN active" href="javascript:VNActived();" id="1">Việt Nam</a>
+				<a class="top-10-music-VN active" href="javascript:VNActived();">Việt Nam</a>
 			</div>
 
 			<div id="USUK-top">
-				<a class="top-10-music-USUK" href="javascript:USUKActived();" id="2">Âu Mỹ</a>
+				<a class="top-10-music-USUK" href="javascript:USUKActived();">Âu Mỹ</a>
 			</div>
 			<div id="KPOP-top">
-				<a class="top-10-music-KPOP" href="javascript:KPOPActived();" id="3">Hàn Quốc</a>
+				<a class="top-10-music-KPOP" href="javascript:KPOPActived();">Hàn Quốc</a>
 			</div>
 		</div>
 
@@ -215,7 +216,7 @@
 				<li>
 					<a  href="#no">
 						<div class="first-song-image first-song-image-VN ">
-							<div class="first-song-number">1</div>
+							<div class="number number-1">1</div>
 						</div>
 					</a>
 
@@ -230,7 +231,7 @@
 				</li>
 
 				<li>
-					<div class="number special-2">2</div>
+					<div class="number number-2">2</div>
 					<div class="song-info">
 						<p>
 							<a class="name-song-top-music" href="#no">Tình Sầu Thiên Thu Muôn Lối</a>
@@ -241,7 +242,7 @@
 				</li>
 
 				<li>
-					<div class="number special-3">3</div>
+					<div class="number number-3">3</div>
 					<div class="song-info">
 						<p>
 							<a class="name-song-top-music" href="#no">Sợ Rằng Em Biết Anh Còn Yêu Em</a>
@@ -321,13 +322,171 @@
 		</div>
 	</div>
 
+	<div class="top-box top-box-mv">
+		<div class="title-top-box">
+			<a class="top-box-link" href="#no">BXH MV</a>
+			<a href="#no">
+				<i class="far fa-play-circle fa-2x play-icon-mv"></i>
+			</a>
+		</div>
+
+		<div class="btn-tab-select" id="btn_tab_select_mv">
+			<div id="VN_top_mv">
+				<a class="top-10-music-VN active" href="javascript:VNActived_mv();">Việt Nam</a>
+			</div>
+
+			<div id="USUK_top_mv">
+				<a class="top-10-music-USUK" href="javascript:USUKActived_mv();">Âu Mỹ</a>
+			</div>
+			<div id="KPOP_top_mv">
+				<a class="top-10-music-KPOP" href="javascript:KPOPActived_mv();">Hàn Quốc</a>
+			</div>
+		</div>
+
+		<div class="top-mv-list" id="top_mv_list">
+			<ul>
+				<li class="mv mv-1">
+					<a href="#no" class="link-mv link-mv-1">
+						<div class="image-mv image-mv-1-VN"></div>
+						<div class="overlay overlay-mv-1"></div>
+
+						<div class="song-info-mv-1"> 
+							<p>
+								<a class="name-song-top-mv name-song-top-mv-1" href="#no">Những Ngày Thật Khác (7 Deep Cuts..</a>
+							</p>
+						</div>
+
+						<div class="overlay-mv-hover overlay-mv-hover-1">
+							<i class="far fa-play-circle fa-3x play-icon-mv-1"></i>
+						</div>
+
+						<!-- Tách tên singer ra khỏi phần tên mv ở trên
+						Vì làm v name-singer-top-music có thể hover đc
+						khi mv-1 đang hover -->
+						<div class="song-info-mv-1 song-info-mv-1-singer">
+							<span><a class="name-singer-top-music name-singer-top-mv-1" href="#no">Phùng Khánh Linh</a></span>
+						</div>
+
+						<a href="#no"><div class="number-mv number-mv-1">1</div></a>
+					</a>
+				</li>
+				<li class="list-mv list-mv-2">
+					<div class="mv mv-2">
+						<a href="#no">
+							<div class="image-mv image-mv-2-VN"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-2">
+								<span class="number-mv number-mv-2">2</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Anh Thanh Niên</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">HuyR</a></span>
+					</div>
+				</li>
+
+				<li class="list-mv list-mv-3">
+					<div class="mv mv-3">
+						<a href="#no">
+							<div class="image-mv image-mv-3-VN"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-3">
+								<span class="number-mv number-mv-3">3</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Việt Nam Tử Tế</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">Lam Trường,</a></span>
+						<span><a class="name-singer-top-mv" href="#no">Hoàng Thuỳ Linh,</a></span>
+						<span><a class="name-singer-top-mv" href="#no">Tóc Tiên,</a></span>
+						<span><a class="name-singer-top-mv" href="#no">ERIK,</a></span>
+						<span><a class="name-singer-top-mv" href="#no">Karik</a></span>
+
+					</div>
+				</li>
+
+
+				<li class="list-mv list-mv-4">
+					<div class="mv mv-4">
+						<a href="#no">
+							<div class="image-mv image-mv-4-VN"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-4">
+								<span class="number-mv number-mv-4">4</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Ghen Cô Vy</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">NIOEH,</a></span>
+						<span><a class="name-singer-top-mv" href="#no">Khắc Hưng,</a></span>
+						<span><a class="name-singer-top-mv" href="#no">MIN,</a></span>
+						<span><a class="name-singer-top-mv" href="#no">ERIK</a></span>
+					</div>
+				</li>
+
+				<li class="list-mv list-mv-5">
+					<div class="mv mv-5">
+						<a href="#no">
+							<div class="image-mv image-mv-5-VN"></div>
+
+							<div class="overlay-mv-hover">
+								<i class="far fa-play-circle fa-2x play-icon-mv-1"></i>
+							</div>
+
+							<div class="overlay overlay-mv-5">
+								<span class="number-mv number-mv-5">5</span>
+							</div>
+						</a>
+					</div>
+					
+					<div class="song-info song-info-mv">
+						<p>
+							<a class="name-song-top-mv" href="#no">Vì Em Quá Cô Đơn</a>
+						</p>
+						<span><a class="name-singer-top-mv" href="#no">Lou Hoàng</a></span>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
+
+
 
 
 	<script src="trend_artist_component.js">
 	</script>
-
-<!-- 		Active "top_music" component and change top_Music_List.innerHTML -->		
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<!-- Active "top_music" component and change top_Music_List.innerHTML -->		
 	<script type="text/javascript">
 
 		var btnTabSelect = document.getElementById('btn_tab_select');
@@ -373,6 +532,55 @@
 			changeContent(urlKPOP);
 		}
 	</script>
+	<!-- Active "top_mv" component and change top_mv_list.innerHTML -->		
+	<script type="text/javascript">
+		var btnTabSelect_mv = document.getElementById('btn_tab_select_mv');
+		var topMvList = document.getElementById('top_mv_list');
+
+		var notActive_mv = '<div id="VN_top_mv"><a class="top-10-music-VN" href="javascript:VNActived_mv();">Việt Nam</a></div><div id="USUK_top_mv"><a class="top-10-music-USUK" href="javascript:USUKActived_mv();">Âu Mỹ</a></div><div id="KPOP_top_mv"><a class="top-10-music-KPOP" href="javascript:KPOPActived_mv();">Hàn Quốc</a></div>';
+
+		var activeVN_mv = '<div id="VN_top_mv"><a class="top-10-music-VN active" href="javascript:VNActived_mv();">Việt Nam</a></div>';
+		var activeUSUK_mv = '<div id="USUK_top_mv"><a class="top-10-music-USUK active" href="javascript:USUKActived_mv();">Âu Mỹ</a></div>';
+		var activeKPOP_mv = '<div id="KPOP_top_mv"><a class="top-10-music-KPOP active" href="javascript:KPOPActived_mv();">Hàn Quốc</a></div>'
+
+		var urlUSUK_mv = "http://localhost:8080/top_mv_USUK.txt";
+		var urlVN_mv = "http://localhost:8080/top_mv_VN.txt";
+		var urlKPOP_mv = "http://localhost:8080/top_mv_KPOP.txt";
+
+		function clearActive_mv(){
+			btnTabSelect_mv.innerHTML = notActive_mv;
+		}
+
+		function changeContent_mv(url) {
+			axios.get(url).then(function(res) {
+				topMvList.innerHTML = res.data;
+			});
+		}
+
+		function VNActived_mv() {
+			clearActive_mv();
+			document.getElementById('VN_top_mv').innerHTML = activeVN_mv;
+			changeContent_mv(urlVN_mv);
+
+		}
+
+		function USUKActived_mv() {
+			clearActive_mv();
+			document.getElementById('USUK_top_mv').innerHTML = activeUSUK_mv;
+			changeContent_mv(urlUSUK_mv);
+
+		}
+
+		function KPOPActived_mv() {
+			clearActive_mv();
+			document.getElementById('KPOP_top_mv').innerHTML = activeKPOP_mv;
+			changeContent_mv(urlKPOP_mv);
+
+		}
+	</script>
+
+
+
 
 </body>
 </html>
