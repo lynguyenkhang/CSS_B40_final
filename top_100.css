@@ -1,0 +1,166 @@
+
+.top-100 {
+	width: max-content;
+	border: 1px solid #0689BA;
+
+}
+
+.top-100 a {
+	text-decoration: none;
+}
+
+
+
+.top-100-head {
+	height: 85px;
+	width: 300px;
+	background-color: #0eaae5;
+	text-align: center;
+
+	position: relative;
+
+}
+
+.top-100-logo {
+	width: 86px;
+	height: 47px;
+	clear:both;
+}
+
+.top-100-logo-new {
+	position: absolute;
+	right: -30px;
+	top: -20px;
+}
+
+.top-100-titile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.horizontal-line {
+	width: 43px;
+	height: 1px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.horizontal-line-1 {
+	margin-right: 7px;
+}
+
+.horizontal-line-2 {
+	margin-left: 7px;
+}
+
+
+
+.top-100-title-name {
+	font-size: 21px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 300;
+}
+
+.top-100-box-content {
+	padding: 0px 15px 0px 15px;
+	margin-bottom: 0px;
+}
+
+.top-100-all-box {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.top-100-all {
+	width: max-content;
+	background-color: #0eaae5;
+	color: #FFF;
+	font-weight: 300;
+	font-size: 12px;
+	padding: 0.5px 15px;
+
+}
+
+.top-100-list {
+	list-style: none;
+	display: flex;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 10px;
+}
+
+.top-100-list-5 {
+	margin-bottom: 7px;
+}
+
+.top-100-image {
+	height: 60px;
+	width: 60px;
+	background-size: cover;
+	margin-right: 15px;
+}
+
+.top-100-image-1 {
+	background-image: url('./top_100/Nhac_Tre.jpg');
+}
+
+.top-100-image-2 {
+	background-image: url('./top_100/Electronic_Dance.jpg');
+}
+
+.top-100-image-3 {
+	background-image: url('./top_100/Nhac_Nhat.jpg');
+}
+
+.top-100-image-4 {
+	background-image: url('./top_100/Tru_Tinh.jpg');
+}
+
+.top-100-image-5 {
+	background-image: url('./top_100/Rap_Viet.jpg');
+}
+
+
+.top-100-name-box {
+	padding-top: 5px;
+	width: 190px;
+}
+
+.top-100-name {
+	color: #222;
+	font-size: 14px;
+	transition: all 0.3s;
+	font-weight: 300;
+}
+
+
+
+.overlay-hover {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.25);
+	top: 0px;
+	opacity: 0;
+
+	transition: all 0.5s;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.top-100-list-link:hover .overlay-hover {
+	opacity: 1;
+}
+
+.top-100-name:hover {
+	color: #0689BA;
+}
+
