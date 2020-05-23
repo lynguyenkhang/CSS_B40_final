@@ -4,6 +4,34 @@
 	background-size: cover;
 }
 
+.angle-right-ngheGiHomNay {
+	left: 240px;
+}
+
+.list-album-image:hover .overlay-hover{
+	opacity: 1;
+}
+
+.list-album-image:hover .play-icon-mv-1 {
+	transform: scale(0.7);
+}
+
 .EDM-For-Life {
-	background-image: url('./nghegihomnay/EDM_For_Life.jpg');
+	background-image: url('./ngheGiHomNay/EDM_For_Life.jpg');
+}
+
+.Vai-Loi-Gui-Tang {
+	background-image: url('./ngheGiHomNay/Vai_Loi_Gui_Tang_Nguoi_Cu.jpg');
+}
+
+.Nhac-Khong-Loi {
+	background-image: url('./ngheGiHomNay/Nhac_Khong_Loi.jpg');
+}
+
+.Ballad {
+	background-image: url('./ngheGiHomNay/Ballad.jpg');
+}
+
+.Nhac-Nhat {
+	background-image: url('./ngheGiHomNay/Nhac_Nhat.jpg');
 }

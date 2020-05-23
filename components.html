@@ -15,7 +15,11 @@
 	<link rel="stylesheet" type="text/css" href="./top_100.css">
 	<link rel="stylesheet" type="text/css" href="./slide_default.css">
 	<link rel="stylesheet" type="text/css" href="./list_album.css">
-	<link rel="stylesheet" type="text/css" href="./nghegihomnay.css">
+	<link rel="stylesheet" type="text/css" href="./ngheGiHomNay.css">
+	<link rel="stylesheet" type="text/css" href="./karaoke.css">
+	<link rel="stylesheet" type="text/css" href="./albumHot.css">
+	<link rel="stylesheet" type="text/css" href="./giai_tri.css">
+	<link rel="stylesheet" type="text/css" href="./mv_hot.css">
 
 	<script src="https://kit.fontawesome.com/d04809f9cf.js" crossorigin="anonymous"></script>
 
@@ -195,7 +199,7 @@
 	</div>
 
 	<div class="top-box top-box-music">
-<!-- 		reuse .title-top-box and .top-box-link from hot_topic.css -->
+	<!-- 		reuse .title-top-box and .top-box-link from hot_topic.css -->
 		<div class="title-top-box"> 
 			<a class="top-box-link" href="#no">BXH BÀI HÁT</a>
 			<a href="#no">
@@ -328,7 +332,7 @@
 	</div>
 
 	<div class="top-box top-box-mv">
-	<!-- 		reuse .title-top-box and .top-box-link from hot_topic.css -->
+		<!-- 		reuse .title-top-box and .top-box-link from hot_topic.css -->
 		<div class="title-top-box">
 			<a class="top-box-link" href="#no">BXH MV</a>
 			<a href="#no">
@@ -635,7 +639,7 @@
 
 	</div>
 
-	<div class="list-album nghegihomnay">
+	<div class="list-album ngheGiHomNay">
 		<!-- reuse from hot_topic.css -->
 		<div class="title-top-box">
 			<a class="top-box-link" href="#no">Nghe Gì Hôm Nay</a>
@@ -657,13 +661,75 @@
 					</div>
 				</a>
 
-<!-- 				reuse top-100-name class in top-100 component -->
+			<!-- 	reuse top-100-name class in top-100 component -->
 				<a class="top-100-name list-album-link" href="#no">EDM For Life</a>
 			</li>
 
 		</ul>
 	</div>
 
+	<div class="list-album karaoke">
+		<!-- reuse from hot_topic.css -->
+		<div class="title-top-box">
+			<a class="top-box-link uppercase" href="#no">Karaoke</a>
+			<i class="fas fa-chevron-right angle-right angle-right-karaoke"></i>
+		</div>
+
+		<ul class="list-album-content-box albumHot-content-box">
+			<li class="list-album-content list-album-content-karaoke">
+				<a href="#no">
+					<div class="list-album-karaoke Tinh-Sau">
+						<div class="overlay-hover">
+							<i class="far fa-play-circle fa-4x play-icon-mv-1"></i>
+						</div>
+
+						<div class="view-box">
+							<i class="fas fa-eye"></i>
+							<span>423</span>
+						</div>
+
+						<div class="video-length">04:18</div>
+					</div>
+				</a>
+
+		<!-- 	reuse top-100-name class in top-100 component -->
+				<a class="top-100-name list-album-link" href="#no">Tình Sầu Thiên Thu Muôn Lối (Karaoke)</a>
+				<p class="albumHot-singer"><a class="name-singer-top-music" href="#no">Võ Minh Hiếu</a></p>
+			</li>
+		</ul>
+	</div>
+
+	<div class="list-album mv-hot">
+		<!-- reuse from hot_topic.css -->
+		<div class="title-top-box">
+			<a class="top-box-link uppercase" href="#no">MV Hot</a>
+			<i class="fas fa-chevron-right angle-right angle-right-mv-hot"></i>
+		</div>
+
+		<ul class="list-album-content-box">
+				<li class="list-album-content list-album-content-mv-hot">
+					<a href="#no">
+
+						<div class="list-album-hot-mv Em-Bo-Hut-Thuoc-Chua"></div>
+						<div class="overlay-hot-mv"></div>
+
+						<div class="song-info-hot-mv"> 
+							<a class="name-song-hot-mv" href="#no">em bỏ hút thuốc chưa ? (Official Video)</a>
+						</div>
+
+						<div class="overlay-hover overlay-hover-hot-mv">
+							<i class="far fa-play-circle fa-4x play-icon-mv-1"></i>
+						</div>
+
+						<div class="song-info-hot-mv song-info-hot-mv-singer">
+							<span class="hot-mv-name-singer"><a href="#no">Bích Phương,</a></span>
+							<span class="hot-mv-name-singer"><a href="#no">traitimtrongvang</a></span>
+						</div>
+				</li>
+		</ul>
+
+
+	</div>
 
 
 

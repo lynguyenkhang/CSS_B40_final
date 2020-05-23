@@ -1,0 +1,81 @@
+.angle-right-mv-hot {
+	left: 105px;
+}
+
+.list-album-content-mv-hot {
+	width: 390px;
+	height: 230px;
+}
+
+.list-album-hot-mv {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.Em-Bo-Hut-Thuoc-Chua {
+	background-image: url('./hot_mv/Em_Bo_Hut_Thuoc_Chua.jpg');
+}
+
+.overlay-hot-mv {
+	width: 100%;
+	height: 100%;
+
+	background: rgb(0,6,13);
+	background: linear-gradient(180deg, rgba(0,6,13,0.2) 56%, rgba(0,5,12,0.7) 83%, rgba(1,0,9,0.9) 96%);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+.song-info-hot-mv {
+	position: absolute;
+	bottom: 33px;
+	left: 15px;
+
+	width: max-content;
+}
+
+.song-info-hot-mv-singer {
+	bottom: 14px;
+}
+
+.song-info-hot-mv-singer a {
+	font-size: 13px;
+	color: #888;
+	font-weight: 500;
+}
+
+.name-song-hot-mv {
+	font-size: 18px;
+	color: #FFF;
+}
+
+
+.overlay-hover-hot-mv {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+
+.list-album-content:hover .overlay-hover{
+	opacity: 1;
+}
+
+.list-album-content:hover .play-icon-mv-1 {
+	transform: scale(1);
+}
+
+.list-album-content:hover .name-song-hot-mv {
+	color: #109ed4;
+}
+
+.hot-mv-name-singer:hover a {
+	color: #109ED4;
+}
+
+
+

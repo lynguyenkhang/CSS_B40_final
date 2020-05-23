@@ -2,13 +2,14 @@
 	font-weight: 300;
 	width: 800px;
 	height: max-content;
+	margin-bottom: 10px;
 
 }
 
-
-.angle-right-nghegihomnay {
-	left: 220px;
+.uppercase {
+	text-transform: uppercase;
 }
+
 
 .list-album-content-box {
 	margin: 0px;
@@ -19,6 +20,7 @@
 
 .list-album-content {
 	position: relative;
+	margin-right: 19px;
 }
 .list-album-content a {
 	text-decoration: none;
@@ -28,13 +30,6 @@
 	margin-bottom: 10px;
 }
 
-.list-album-image:hover .overlay-hover{
-	opacity: 1;
-}
-
-.list-album-image:hover .play-icon-mv-1 {
-	transform: scale(0.7);
-}
 
 .view-box{
 	width: 57px;
