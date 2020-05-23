@@ -1,0 +1,69 @@
+.list-album {
+	font-weight: 300;
+	width: 800px;
+	height: max-content;
+
+}
+
+
+.angle-right-nghegihomnay {
+	left: 220px;
+}
+
+.list-album-content-box {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+}
+
+.list-album-content {
+	position: relative;
+}
+.list-album-content a {
+	text-decoration: none;
+}
+
+.list-album-image {
+	margin-bottom: 10px;
+}
+
+.list-album-image:hover .overlay-hover{
+	opacity: 1;
+}
+
+.list-album-image:hover .play-icon-mv-1 {
+	transform: scale(0.7);
+}
+
+.view-box{
+	width: 57px;
+	height: 22px;
+	font-size: 12px;
+	color: #c7c7c7;
+
+	background-image: url('./bg_view_listen.png');
+	opacity: 0.8;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.view-box i, span {
+	padding-right: 5px;
+}
+
+
+
+.small {
+	font-size: 0.8em !important;
+}
+
+/*.list-album-link {
+	text-decoration: none;
+}*/
+

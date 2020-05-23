@@ -14,6 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="./top_mv.css">
 	<link rel="stylesheet" type="text/css" href="./top_100.css">
 	<link rel="stylesheet" type="text/css" href="./slide_default.css">
+	<link rel="stylesheet" type="text/css" href="./list_album.css">
+	<link rel="stylesheet" type="text/css" href="./nghegihomnay.css">
 
 	<script src="https://kit.fontawesome.com/d04809f9cf.js" crossorigin="anonymous"></script>
 
@@ -154,8 +156,8 @@
 	</a>
 
 	<div class="hot-topic">
-		<div class="title-hot-topic-box">
-			<a class="title-hot-topic-link" href="#no">CHỦ ĐỀ HOT</a>
+		<div class="title-top-box">
+			<a class="top-box-link" href="#no">CHỦ ĐỀ HOT</a>
 			<i class="fas fa-chevron-right angle-right"></i>
 		</div>
 		<ul class=hot-top-list>
@@ -193,7 +195,8 @@
 	</div>
 
 	<div class="top-box top-box-music">
-		<div class="title-top-box">
+<!-- 		reuse .title-top-box and .top-box-link from hot_topic.css -->
+		<div class="title-top-box"> 
 			<a class="top-box-link" href="#no">BXH BÀI HÁT</a>
 			<a href="#no">
 				<i class="far fa-play-circle fa-2x play-icon"></i>
@@ -325,6 +328,7 @@
 	</div>
 
 	<div class="top-box top-box-mv">
+	<!-- 		reuse .title-top-box and .top-box-link from hot_topic.css -->
 		<div class="title-top-box">
 			<a class="top-box-link" href="#no">BXH MV</a>
 			<a href="#no">
@@ -629,6 +633,35 @@
 			</li>
 		</ul>
 
+	</div>
+
+	<div class="list-album nghegihomnay">
+		<!-- reuse from hot_topic.css -->
+		<div class="title-top-box">
+			<a class="top-box-link" href="#no">Nghe Gì Hôm Nay</a>
+			<i class="fas fa-chevron-right angle-right angle-right-nghegihomnay"></i>
+		</div>
+
+		<ul class="list-album-content-box">
+			<li class="list-album-content">
+				<a href="#no">
+					<div class="list-album-image EDM-For-Life">
+						<div class="overlay-hover">
+							<i class="far fa-play-circle fa-4x play-icon-mv-1"></i>
+						</div>
+
+						<div class="view-box">
+							<i class="fas fa-headphones-alt small"></i>
+							<span>1.308</span>
+						</div>
+					</div>
+				</a>
+
+<!-- 				reuse top-100-name class in top-100 component -->
+				<a class="top-100-name list-album-link" href="#no">EDM For Life</a>
+			</li>
+
+		</ul>
 	</div>
 
 

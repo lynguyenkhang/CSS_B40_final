@@ -1,0 +1,9 @@
+.list-album-image {
+	height: 145px;
+	width: 145px;
+	background-size: cover;
+}
+
+.EDM-For-Life {
+	background-image: url('./nghegihomnay/EDM_For_Life.jpg');
+}
