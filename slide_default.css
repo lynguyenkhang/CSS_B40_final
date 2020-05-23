@@ -1,0 +1,116 @@
+
+.slide-default {
+	width: 800px;
+	height: max-content;
+	background-color: #333;
+}
+
+
+
+
+.slide-default-image {
+	width: 800px;
+	height: 340px;
+}
+
+.slide-default-list-box {
+	width: 100%;
+	height: 76px;
+	padding: 0px;
+	margin: 0px;
+
+
+	list-style: none;
+	display: flex;
+}
+
+.slide-default-list {
+	margin-right: 8px;
+	padding-bottom: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+}
+
+.slide-default-list-1 {
+	margin-left: 8px;
+}
+
+
+
+
+.slide-default-list-image {
+	width: 150px;
+	height: 63px;
+	background-size: cover;
+
+	position: relative;
+}
+
+.Cover-Vang {
+	background-image: url('./slide_default/Cover_Vang.jpg');
+	background-color: red;
+}
+
+.Asian-Pop {
+	background-image: url('./slide_default/Asian_Pop.jpg');
+	background-color: red;
+}
+
+.Bong-Sro {
+	background-image: url('./slide_default/Bong_Sro.jpg');
+	background-color: red;
+}
+
+.Sang-Mua {
+	background-image: url('./slide_default/Sang_Mua.jpg');
+	background-color: red;
+}
+
+.Throwback {
+	background-image: url('./slide_default/Throwback.jpg');
+	background-color: red;
+}
+
+
+.line {
+	background-color: rgb(231,76,60);
+	position: absolute;
+	opacity: 0;
+}
+
+.vertical {
+	height: 63px;
+	width: 4px;
+}
+
+.horizontal {
+	height: 4px;
+	width: 142px;
+}
+
+
+.vertical-2 {
+	right: 0px;
+	top: 0px;
+}
+
+
+.horizontal-1{
+	left: 4px;
+}
+.horizontal-2 {
+	bottom: 0px;
+	left: 4px;
+}
+
+
+
+
+.slide-default-list:hover .line {
+	opacity: 1;
+}
+
+

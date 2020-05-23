@@ -13,8 +13,17 @@
 	z-index: 99999;*/
 }
 
-.grid-collum-gap {
+.ride-sidebar-box {
+	padding-top: 20px;
 	padding-left: 25px;
+}
+
+
+.main-box{
+ 	padding-top: 20px;
+	width: 800px;
+	height: max-content;
+	float: right;
 }
 
 body {

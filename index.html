@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./top_music.css">
 	<link rel="stylesheet" type="text/css" href="./top_mv.css">
 	<link rel="stylesheet" type="text/css" href="./top_100.css">
+	<link rel="stylesheet" type="text/css" href="./slide_default.css">
 
 
 
@@ -404,12 +405,84 @@
 
 
 
-		<div class="main">Main</div>
+		<div class="main">
+			<div class="main-box">
+
+				<div class="slide-default">
+					<a href="#no" id="slide_default_image_link">
+						<img src="./slide_default/Cover_Vang.jpg" class="slide-default-image">
+					</a>
+
+					<ul class="slide-default-list-box">
+
+						<li class="slide-default-list slide-default-list-1" onmouseover="changeImage('Cover_Vang.jpg')">
+							<a href="#no">
+								<div class="slide-default-list-image Cover-Vang">
+									<div class="line vertical vertical-1 "></div>
+									<div class="line vertical vertical-2"></div>
+									<div class="line horizontal horizontal-1"></div>
+									<div class="line horizontal horizontal-2"></div>
+								</div>
+							</a>
+
+							
+						</li>
+
+
+						<li class="slide-default-list slide-default-list-2" onmouseover="changeImage('Asian_Pop.jpg')">
+							<a href="#no">
+								<div class="slide-default-list-image Asian-Pop">
+									<div class="line vertical vertical-1 "></div>
+									<div class="line vertical vertical-2"></div>
+									<div class="line horizontal horizontal-1"></div>
+									<div class="line horizontal horizontal-2"></div>
+								</div>
+							</a>
+						</li>
+
+						<li class="slide-default-list slide-default-list-3" onmouseover="changeImage('Bong_Sro.jpg')">
+							<a href="#no">
+								<div class="slide-default-list-image Bong-Sro">
+									<div class="line vertical vertical-1 "></div>
+									<div class="line vertical vertical-2"></div>
+									<div class="line horizontal horizontal-1"></div>
+									<div class="line horizontal horizontal-2"></div>
+								</div>
+							</a>
+						</li>
+					
+						<li class="slide-default-list slide-default-list-4" onmouseover="changeImage('Sang_Mua.jpg')">
+							<a href="#no">
+								<div class="slide-default-list-image Sang-Mua">
+									<div class="line vertical vertical-1 "></div>
+									<div class="line vertical vertical-2"></div>
+									<div class="line horizontal horizontal-1"></div>
+									<div class="line horizontal horizontal-2"></div>
+								</div>
+							</a>
+						</li>
+
+						<li class="slide-default-list slide-default-list-5" onmouseover="changeImage('Throwback.jpg')">
+							<a href="#no">
+								<div class="slide-default-list-image Throwback">
+									<div class="line vertical vertical-1 "></div>
+									<div class="line vertical vertical-2"></div>
+									<div class="line horizontal horizontal-1"></div>
+									<div class="line horizontal horizontal-2"></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+		</div>
 
 
 
 		<div class="right-sidebar">
-			<div class="grid-collum-gap">
+			<div class="ride-sidebar-box">
 				<div class="trend-artists">
 					<div class="trend-item">
 						<a class="link-image" id="link_image" href="#no">
@@ -897,7 +970,9 @@
 
 	<script src="trend_artist_component.js">
 	</script>
-
+	
+	<!-- change Slide_Default -->
+	<script src="./slide_default.js"></script>
 	
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<!-- 		Active "top_music" component and change top_Music_List.innerHTML -->
