@@ -1,0 +1,90 @@
+.list-cooperation {
+	background-color: #efefef;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 148px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.list-cooperation-box {
+	width: 1139px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.titile-list-cooperation {
+	text-transform: uppercase;
+	float: left;
+    font-size: 14px;
+    color: rgba(0,0,0,0.88);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 16px 0px 0px 0px;
+}
+
+.list-cooperation-logo-box {
+	height: 100px;
+	display: flex;
+
+	justify-content: space-between;
+	align-items: center;
+
+/*	border: 1px solid;*/
+	margin: 0px 28px;
+
+	position: relative;
+}
+.list-cooperation-logo-box a {
+	text-decoration: none;
+
+}
+
+.button {
+	height: 56px;
+	width: 56px;
+	background-color: rgba(255,255,255,0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+
+	position: absolute;
+
+}
+
+.button a {
+	color: rgba(0,0,0,0.5);
+}
+
+.left-button {
+	left: -37px;
+	top: 25%;
+}
+
+.right-button {
+	right: -30px;
+	top: 25%;
+}
+
+
+.list_cooperation-icon {
+	font-size: 2.3em !important;
+}
+
+
+/*.list-cooperation-logo {
+
+	margin-right: 30px;
+	border: 1px solid black;
+}
+
+.list-cooperation-logo-1 {
+	margin-left: 28px;
+}
+
+.list-cooperation-logo-5 {
+	margin-right: 28px
+}*/
