@@ -7,7 +7,7 @@
 	height: 230px;
 }
 .no-margin-right {
-	margin-right: 0px;
+	margin-right: 0px !important;
 }
 
 .list-album-hot-mv {
