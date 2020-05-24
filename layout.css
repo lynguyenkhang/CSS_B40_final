@@ -3,7 +3,7 @@
 	grid-template-columns: 2fr 1fr;
 }
 
-.header {
+.header, .footer {
 	grid-column-start: 1;
 	grid-column-end: 3;
 
@@ -11,6 +11,10 @@
 	top:0px;
 	background-color: #FFF;
 	z-index: 99999;*/
+}
+
+.footer {
+	margin-top: 88px;
 }
 
 .ride-sidebar-box {
@@ -25,6 +29,9 @@
 	height: max-content;
 	float: right;
 }
+
+
+
 
 body {
 	font-family: sans-serif;
