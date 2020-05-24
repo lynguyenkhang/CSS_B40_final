@@ -1,0 +1,125 @@
+.list-song-content-box {
+	margin-bottom: 19px;
+}
+
+.list-album-content-list-song {
+	width: 390px;
+	height: 100%;
+	padding: 5px 0px;
+	margin-right: 19px;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	display: flex;
+	align-items: center;
+
+	position: relative;
+
+
+}
+
+.list-album-content-list-song a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: rgba(0,0,0,0.88);
+	transition: all 0.3s;
+
+}
+
+.list-album-content-list-song p {
+	margin: 10px 0px 3px 0px;
+}
+
+.list-song-singer {
+	font-size: 12px !important;
+	color: rgba(0,0,0,0.5) !important;
+}
+
+.list-song-image {
+	height: 60px;
+	width: 60px;
+	background-size: cover;
+}
+
+.em-bo-hut-thuoc-chua-small {
+	background-image: url('./list_song/em_bo_hut_thuoc_chua_small.jpg');
+}
+
+
+
+.song-infor-list-song {
+	width: 230px;
+	height: 60px;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.view-song-list-song {
+	display: flex;
+
+	color: #999;
+	font-size: 12px;
+}
+
+.list-song-icon {
+	margin-right: 5px;
+}
+
+.box-song-action {
+	display: flex;
+
+	position: absolute;
+	top: 28px;
+	right: 14px;
+	opacity: 0;
+}
+
+.play-icon-nct {
+	width: 10px;
+    height: 14px;
+    background: url(https://stc-id.nixcdn.com/v11/images/icon.png) -30px top no-repeat;
+    display: block;
+    float: left;
+    margin: 0px 0px 0px 0px;
+
+    transition: all 0.4s;
+}
+
+.heart-icon {
+	width: 16px;
+    height: 14px;
+    background: url(https://stc-id.nixcdn.com/v11/images/icon.png) -44px top no-repeat;
+    display: block;
+    float: left;
+    margin: 0px 12px 0px 0px;
+
+    transition: all 0.4s;
+
+}
+
+
+
+.list-album-content-list-song a:hover {
+	color: #0689BA;
+}
+
+.list-song-singer:hover {
+	color: #0689BA !important;
+}
+
+.list-album-content-list-song:hover .view-song-list-song {
+	display: none;
+}
+
+.list-album-content-list-song:hover .box-song-action {
+	opacity: 1;
+}
+ 
+.heart-icon:hover {
+    background: url(https://stc-id.nixcdn.com/v11/images/icon.png) -44px -14px no-repeat;
+}
+
+.play-icon-nct:hover {
+    background: url(https://stc-id.nixcdn.com/v11/images/icon.png) -30px -14px no-repeat;
+}
+
