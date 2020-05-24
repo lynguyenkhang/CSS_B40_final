@@ -5,7 +5,9 @@
 .list-album-content-mv-hot {
 	width: 390px;
 	height: 230px;
-	margin-right: 19px;
+}
+.no-margin-right {
+	margin-right: 0px;
 }
 
 .list-album-hot-mv {
@@ -14,13 +16,6 @@
 	background-size: cover;
 }
 
-.Em-Bo-Hut-Thuoc-Chua {
-	background-image: url('./hot_mv/Em_Bo_Hut_Thuoc_Chua.jpg');
-}
-
-.SAY {
-	background-image: url('./hot_mv/SAY.jpg');
-}
 
 
 .overlay-hot-mv {
@@ -104,5 +99,43 @@
 	color: #109ED4;
 }
 
+.Em-Bo-Hut-Thuoc-Chua {
+	background-image: url('./hot_mv/Em_Bo_Hut_Thuoc_Chua.jpg');
+}
 
+.SAY {
+	background-image: url('./hot_mv/SAY.jpg');
+}
+
+.Anh-Thanh-Nien {
+	background-image: url('./hot_mv/Anh_Thanh_Nien.jpg');
+}
+
+.Fila {
+	background-image: url('./hot_mv/Fila.jpg');
+}
+
+.Let-Fight-Covid {
+	background-image: url('./hot_mv/Let_Fight_Covid.jpg');
+}
+
+.Never-Worn-White {
+	background-image: url('./hot_mv/Never_Worn_White.jpg');
+}
+
+.Old-Me {
+	background-image: url('./hot_mv/Old_Me.jpg');
+}
+
+.Say-So {
+	background-image: url('./hot_mv/Say_So.jpg');
+}
+
+.Tham-Yeu {
+	background-image: url('./hot_mv/Tham_Yeu.jpg');
+}
+
+.Thiep-Hong {
+	background-image: url('./hot_mv/Thiep_Hong.jpg');
+}
 
