@@ -5,6 +5,7 @@
 .list-album-content-mv-hot {
 	width: 390px;
 	height: 230px;
+	margin-right: 19px;
 }
 
 .list-album-hot-mv {
@@ -17,6 +18,11 @@
 	background-image: url('./hot_mv/Em_Bo_Hut_Thuoc_Chua.jpg');
 }
 
+.SAY {
+	background-image: url('./hot_mv/SAY.jpg');
+}
+
+
 .overlay-hot-mv {
 	width: 100%;
 	height: 100%;
@@ -28,13 +34,23 @@
 	left: 0px;
 }
 
-
 .song-info-hot-mv {
 	position: absolute;
 	bottom: 33px;
 	left: 15px;
 
 	width: max-content;
+}
+
+.name-song-hot-mv {
+	font-size: 18px;
+	color: #FFF;
+}
+
+.overlay-hover-hot-mv {
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
 .song-info-hot-mv-singer {
@@ -47,16 +63,27 @@
 	font-weight: 500;
 }
 
-.name-song-hot-mv {
-	font-size: 18px;
-	color: #FFF;
+
+
+
+
+.mv-hot-content-box {
+	margin-bottom: 19px;
 }
 
 
-.overlay-hover-hot-mv {
-	position: absolute;
-	top: 0px;
-	left: 0px;
+
+
+.no-margin-right {
+	margin-right: 0px;
+}
+
+
+
+
+
+.video-length-hot-mv {
+	top: 210px;
 }
 
 
