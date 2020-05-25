@@ -1,0 +1,47 @@
+
+.navigation {
+    width: calc(33.333333% - 48px);
+    height: max-content;
+    float: left;
+    margin: 0 48px 0 0;
+}
+
+.navigation-title {
+	margin: 40px 0px 8px 0px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+
+}
+
+.navigation-list-box {
+	padding: 0;
+	display: flex;
+	width: 100%;
+	margin: 0px;
+}
+
+.navigation-list-box li {
+	width: 50%;
+
+	list-style: none;
+
+	position: relative;
+	padding: 11px 15px;
+}
+
+.navigation-list-box a {
+	font-weight: 300;
+	font-size: 14px;
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+.navigation-icon {
+	opacity: 0.3;
+	position: absolute;
+    top: 15.4px;
+    left: 0px;
+
+    font-size: 0.7em !important;
+}
