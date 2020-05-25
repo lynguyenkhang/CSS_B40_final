@@ -48,10 +48,9 @@
 	align-items: center;
 }
 
-.view-box i, span {
+.view-box i, .view-box span {
 	padding-right: 5px;
 }
-
 
 
 .small {
