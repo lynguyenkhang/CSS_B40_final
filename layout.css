@@ -22,6 +22,11 @@
 	padding-left: 25px;
 }
 
+/*create a space between to menu-bar*/
+.main, .right-sidebar{
+	margin-top: 50px;
+
+}
 
 .main-box{
  	padding-top: 20px;
@@ -30,8 +35,13 @@
 	float: right;
 }
 
+.draft {
 
-
+	position: fixed;
+	top: 0px;
+	left: 10.8%;
+	z-index: 11;
+}
 
 body {
 	font-family: sans-serif;
