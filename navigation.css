@@ -14,15 +14,17 @@
 	display: flex;
 	flex-direction: row;
 
-	border-bottom: #dadada solid 1px;
+	border-bottom: #ccc solid 1px;
+	margin-bottom: 40px;
+	
 }
 
 
 .navigation {
-    width: calc(33.333333% - 48px);
+    width: calc(33.333333% - 43px);
     height: max-content;
     float: left;
-    margin: 0 48px 0 0;
+    margin: 0 43px 0 0;
 }
 
 .navigation-title {

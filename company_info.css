@@ -1,0 +1,66 @@
+.company-info {
+	margin-bottom: 20px;
+	width: 100%;
+	height: max-content;
+
+	display: flex;
+	justify-content: center;
+}
+
+.company-info-box {
+	width: 1139px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.nct-company-logo {
+    width: 80px;
+    height: 96px;
+    background: url(https://stc-id.nixcdn.com/v11/images/footer/t_logo_company.png) center center no-repeat;
+    background-size: contain;
+    margin: 0 32px 0 0;
+
+}
+
+.company-info-detail {
+	width: max-content;
+	color: #909090;
+	font-size: 13px;
+
+}
+
+.detail-name {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0px 0px 17px 0px;
+	font-size: 16px;
+}
+
+.detail-company {
+	margin-bottom: 5px;
+}
+
+.bo-cong-thuong-logo {
+    width: 120px;
+    height: 126px;
+    background: url('https://stc-id.nixcdn.com/v11/images/footer/t_bo_cong_thuong.png') center center no-repeat;
+    background-size: contain;
+    margin: 0 32px 0 0;
+}
+
+.DMCA-logo {
+    width: 120px;
+	height: 126px;
+	background: url('https://stc-id.nixcdn.com/v11/images/footer/t_dmca.png') center center no-repeat;
+	background-size: contain;
+    margin: 0 32px 0 0;
+}
+
+
+
+
+
+
+
+
